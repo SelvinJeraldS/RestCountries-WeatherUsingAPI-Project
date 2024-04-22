@@ -62,9 +62,9 @@ document.addEventListener("click", function(event) {
  }
 });
 
-// Function to fetch weather data from OpenWeatherMap API
+
 function fetchWeather(lat, lon) {
- const apiKey = "4514281a08dd68b59440f464d6f2abac"; // Replace with your OpenWeatherMap API key
+ const apiKey = "4514281a08dd68b59440f464d6f2abac"; 
  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
  fetch(apiUrl)
